@@ -34,7 +34,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js"
       }
     }
   </script>
@@ -47,8 +49,8 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@app/root-config": "//localhost:9000/app-root-config.js"
+        "@fintech/root-config": "//localhost:9000/fintech-root-config.js",
+        "@fintech/auth-app": "//localhost:9001/fintech-auth-app.js"
       }
     }
   </script>
@@ -75,7 +77,7 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <script>
-    System.import('@app/root-config');
+    System.import('@fintech/root-config');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>

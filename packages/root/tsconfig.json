@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/app-root-config.ts"],
+  "files": ["src/fintech-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },
