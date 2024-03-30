@@ -2,6 +2,11 @@
 
 $font-family: 'Roboto', sans-serif;
 $primary-color: #EB6625;
+$secondary-color: #8b8c8a;
+$background: #182b3a;
+$white: #fdfffc;
+$black: #171817;
+$overlay: rgba(253, 255, 252, 0.8);
 
 * {
   margin: 0;
@@ -12,7 +17,8 @@ $primary-color: #EB6625;
 
 body {
   font: 400 14px $font-family;
-  background: #f0f0f5;
+  background: $background;
+  color: $white;
   -webkit-font-smoothing: antialiased;
 }
 
