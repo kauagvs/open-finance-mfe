@@ -4,7 +4,7 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/app-auth-app.tsx"],
+  "files": ["src/fintech-auth-app.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }

@@ -1,3 +1,6 @@
-export default function Root(props) {
-  return <section>{props.name} is show todos!</section>;
+import Login from "./pages/Login";
+import "./global.scss";
+
+export default function Root() {
+  return < Login />;
 }
