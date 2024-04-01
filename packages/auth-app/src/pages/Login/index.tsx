@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./style.scss";
 
 import heroesImg from "../../assets/investment.svg";
 
 export default function Login() {
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -15,7 +16,7 @@ export default function Login() {
     const passwordKey = "admin";
 
     if (username === usernameKey && password === passwordKey) {
-      alert("Login efetuado com sucesso!");
+      window.location.href = "/dashboard";
     } else {
       alert("Usuário ou senha inválidos!");
     }
